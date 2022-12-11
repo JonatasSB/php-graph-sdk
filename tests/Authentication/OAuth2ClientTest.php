@@ -156,7 +156,7 @@ class OAuth2ClientTest extends \PHPUnit_Framework_TestCase
             'redirect_uri' => 'foo_uri',
             'client_id' => '123',
             'client_secret' => 'foo_secret',
-            'appsecret_proof' => '7e91300ea91be4166282611d4fc700b473466f3ea2981dafbf492fc096995bf1'
+            'appsecret_proof' => '7e91300ea91be4166282611d4fc700b473466f3ea2981dafbf492fc096995bf1',
         ];
 
         $request = $this->oauth->getLastRequest();
